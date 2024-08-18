@@ -16,7 +16,7 @@ I don't have a CWS developer account (cause I don't have 5 dollars, plz gimme mo
 
 3. Toggle the `developer mode` button (on the top right) and then click on `load unpacked`
 
-   ![Picture of developer mode button](./picture/"Screenshot1.png")
+   ![Picture of developer mode button](./picture/Screenshot1.png)
 
 5. Select the `src` directory (inside the folder you cloned from github).
 
