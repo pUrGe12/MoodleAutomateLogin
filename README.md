@@ -16,11 +16,13 @@ I don't have a CWS developer account (cause I don't have 5 dollars, plz gimme mo
 
 3. Toggle the `developer mode` button (on the top right) and then click on `load unpacked`
 
-4. Select the `src` directory (inside the folder you cloned from github).
+   ![Picture of developer mode button](./picture/Screenshot 2024-08-18 061915.png)
 
-5. Click on `details` and visit the `options` page. Here you'll be greeted by beautiful **frontend**. Enter the username and password that you want to login to moodle with. Your credentials are saved in the chrome storage box (**I don't have access so chill**).
+5. Select the `src` directory (inside the folder you cloned from github).
 
-6. Now you're good to go!
+6. Click on `details` and visit the `options` page. Here you'll be greeted by beautiful **frontend**. Enter the username and password that you want to login to moodle with. Your credentials are saved in the chrome storage box (**I don't have access so chill**).
+
+7. Now you're good to go!
 
 ## If you're facing problems
 ---
