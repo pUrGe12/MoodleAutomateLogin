@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Automate login",
+  "version": "1.0",
+  "description": "Automate the login to IITM courses website",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "webNavigation",
+    "scripting",
+    "contextMenus",
+    "storage"
+  ],
+    "host_permissions": [
+    "https://courses.iitm.ac.in/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://courses.iitm.ac.in/"],
+      "exclude_matches": ["https://courses.iitm.ac.in/my/"]
+    },
+    {
+      "js": ["content2.js"],
+      "matches": ["https://courses.iitm.ac.in/login/index.php"],
+      "exclude_matches": ["https://courses.iitm.ac.in/my/"]
+    }
+  ]
+}
