@@ -21,8 +21,10 @@ I don't have a CWS developer account (cause I don't have 5 dollars, plz gimme mo
 5. Select the `src` directory (inside the folder you cloned from github).
 
 6. Click on `details` and visit the `options` page. Here you'll be greeted by beautiful **frontend**. Enter the username and password that you want to login to moodle with. Your credentials are saved in the chrome storage box (**I don't have access so chill**).
+    
+   ![Picture of options](./picture/Screenshot2.png)
 
-7. Now you're good to go!
+8. Now you're good to go!
 
 ## If you're facing problems
 ---
